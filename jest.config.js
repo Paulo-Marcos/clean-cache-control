@@ -1,6 +1,6 @@
 module.exports = {
   roots: ['<rootDir>/src'],
-  tesEnvironment: 'node',
+  testEnvironment: 'node',
   transform: {
     '.+\\.ts$': 'ts-jest' /* qualquer arquivo que termine com .ts vamos transformar isso usando o ts-jest, isto é, para javascript */
   },
