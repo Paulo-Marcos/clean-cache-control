@@ -6,5 +6,12 @@ module.exports = {
   },
   moduleNameMapper: {
     '@/(.*)': '<rootDir>/src/$1' /*Onde tiver @/qualquer_coisa será substituído por <rootDir>/src/qualquer_coisa */
+  },
+  globals: {
+    'ts-jest': {
+      diagnostics: {
+        ignoreCOdes: [151001]
+      }
+    }
   }
 }
